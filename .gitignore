@@ -3,3 +3,5 @@ Gemfile.lock
 */public/
 .jekyll-cache
 public
+node_modules
+package-lock.json
