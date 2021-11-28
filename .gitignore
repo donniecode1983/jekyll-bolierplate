@@ -6,3 +6,4 @@ public
 node_modules
 package-lock.json
 production
+Gemfile.lock
