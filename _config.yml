@@ -12,3 +12,7 @@ collections:
 
 
 destination: public
+
+exclude: [
+  "gulpfile.js"
+]

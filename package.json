@@ -1,0 +1,25 @@
+{
+  "name": "jektut",
+  "version": "1.0.0",
+  "description": "This is a simple Jekyll boilerplate I am building to have a starting point for Jekyll projects. It includes Bootstrap styling.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bundle exec jekyll build && gulp",
+    "serve": "bundle exec jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donniecode1983/jekyll-bolierplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donniecode1983/jekyll-bolierplate/issues"
+  },
+  "homepage": "https://github.com/donniecode1983/jekyll-bolierplate#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
