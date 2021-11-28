@@ -7,3 +7,9 @@ main:
 
   - name: Contact
     link: /contact/
+
+  - name: Blog
+    link: /blog/
+
+  - name: Sample Collection
+    link: /samplecollection/

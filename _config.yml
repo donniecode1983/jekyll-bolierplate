@@ -1,4 +1,14 @@
 
 name: Jekyll Boilerplate
 
+
+# Collections
+
+collections_dir: collections
+
+collections:
+  sample_collection:
+    output: true
+
+
 destination: public
