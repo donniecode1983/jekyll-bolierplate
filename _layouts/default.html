@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.lux.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>{{ page.title }}</title>
 </head>
 
-<body>
-    {{ content }}
+<body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+        {{ content }}
+    </main>
+    {% include footer.html %}
 </body>
 
 </html>
