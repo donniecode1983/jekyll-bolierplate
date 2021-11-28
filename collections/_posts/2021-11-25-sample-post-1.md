@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Sample Post One
+tags: tag1 tag3
 ---
-
-# {{ page.title }}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Arcu odio ut sem nulla. Cum sociis natoque penatibus et magnis dis parturient. Auctor eu augue ut lectus arcu. Sed faucibus turpis in eu. Varius sit amet mattis vulputate enim nulla aliquet porttitor. Ultrices tincidunt arcu non sodales neque sodales ut. Consequat id porta nibh venenatis cras sed felis. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Sed ullamcorper morbi tincidunt ornare massa eget. Accumsan tortor posuere ac ut consequat. At augue eget arcu dictum.
 

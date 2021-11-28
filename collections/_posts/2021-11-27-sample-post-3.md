@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Sample Post Three
+tags: ["tag2", "tag3"]
 ---
-
-# {{ page.title }}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac. Vel elit scelerisque mauris pellentesque pulvinar. Posuere morbi leo urna molestie at elementum. Risus in hendrerit gravida rutrum quisque. Id neque aliquam vestibulum morbi. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. In est ante in nibh mauris. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Pretium aenean pharetra magna ac placerat vestibulum lectus. Non nisi est sit amet facilisis magna etiam.
 
