@@ -8,7 +8,7 @@ collections_dir: collections
 
 collections:
   sample_collection:
-    output: true
+    # output: true -> use this option if you would like the collection outputed to static html pages.
 
 
 destination: public
