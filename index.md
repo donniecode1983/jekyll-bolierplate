@@ -1,8 +1,6 @@
 ---
 layout: default
-title: Welcome to the Template.
+title: Welcome to the Jekyll Boilerplate.
 ---
 
-# Hello World
-
-This is just a test paragraph.
+{% include frontpage-hero.html %}
