@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "bundle exec jekyll build && gulp",
-    "serve": "bundle exec jekyll serve"
+    "serve": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
