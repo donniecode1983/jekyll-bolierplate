@@ -1,7 +1,7 @@
 // Requires
 const { src, dest, watch, series } = require("gulp");
 const htmlmin = require("gulp-htmlmin");
-const prefix = require('gulp-autoprefixer');
+// const prefix = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 const terser = require('gulp-terser');
 // const imagemin = require('gulp-imagemin');
@@ -32,22 +32,8 @@ function jsmin() {
 function copyImgs() {
   return src("public/**/*.{jpg,png,jpeg}")
   .pipe(dest("production/"))
-}
+}  
 
-// Optimize Images
-// function optimizeimg() {
-//   return src("public/images/**/**/*.{jpg,png}")
-//   .pipe(imagemin([
-//     imagemin.mozjpeg({ quality: 80, progressive: true}),
-//     imagemin.optipng({ optimizationLevel: 2}),
-//   ]))
-//   .pipe(dest("production/assets/images"))
-// }
-
-// Watch Task for CSS
-// function watchTask(){
-//   watch("public/**/*.css", compilecss);
-// }
 
 exports.default = series(minHTML, compilecss, jsmin, copyImgs);
 // series(minHTML, compilecss, jsmin);
