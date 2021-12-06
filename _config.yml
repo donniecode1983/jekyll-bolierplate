@@ -14,5 +14,9 @@ collections:
 destination: public
 
 exclude: [
-  "gulpfile.js"
+  "gulpfile.js",
+  "package-lock.json",
+  "package.json",
+  "README.md",
+  "_scripts"
 ]
