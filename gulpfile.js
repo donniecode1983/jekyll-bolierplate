@@ -1,21 +1,8 @@
 // Requires
 const { src, dest, series } = require("gulp");
 const htmlmin = require("gulp-htmlmin");
-// const prefix = require('gulp-autoprefixer');
 const minify = require('gulp-clean-css');
 const terser = require('gulp-terser');
-// const imagemin = require('gulp-imagemin');
-// const imagewebp = require('gulp-webp');
-
-// import gulp from "gulp";
-// import src from "gulp";
-// import dest from "gulp";
-// import series from "gulp";
-// import htmlmin from "gulp-htmlmin";
-// import minify from "gulp-clean-css";
-// import terser from "gulp-terser";
-// import GulpCleanCss from "gulp-clean-css";
-
 
 // Minify HTML
 function minHTML() {
@@ -43,8 +30,6 @@ function copyImgs() {
   .pipe(dest("production/"))
 }  
 
-// gulp.series(minHTML, compilecss, jsmin, copyImgs);
 exports.default = series(minHTML, compilecss, jsmin, copyImgs);
-// series(minHTML, compilecss, jsmin, copyImgs);
-// series(minHTML, compilecss, jsmin);
+
 
