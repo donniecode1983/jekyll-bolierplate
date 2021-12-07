@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -fr production && bundle exec jekyll build && node index.js && gulp",
-    "serve": "bundle exec jekyll serve --livereload"
+    "serve": "bundle exec jekyll serve --livereload",
+    "upload": "_scripts/upload.sh"
   },
   "repository": {
     "type": "git",
