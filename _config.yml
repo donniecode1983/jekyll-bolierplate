@@ -1,6 +1,9 @@
 
 name: Jekyll Boilerplate
-
+title: The Jekyll Boilerplate
+tagline: This is a short description of the site.
+description: This is the longer version of the site description. It will be placed in the head of the document.
+url: https://devhtml.dmurphyweb.com
 
 # Collections
 
@@ -13,6 +16,14 @@ collections:
 
 destination: public
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+# Exculde these files and folders
 exclude: [
   "gulpfile.js",
   "package-lock.json",

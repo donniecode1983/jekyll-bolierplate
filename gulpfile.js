@@ -28,8 +28,18 @@ function jsmin() {
 function copyImgs() {
   return src("public/**/*.{jpg,png,jpeg}")
   .pipe(dest("production/"))
-}  
+}
 
-exports.default = series(minHTML, compilecss, jsmin, copyImgs);
+// Copy misc files
+function copyFiles() {
+  return src("public/robots.txt")
+  .pipe(dest("production/"))
+  .pipe(src("public/sitemap.xml"))
+  .pipe(dest("production/"))
+  .pipe(src("public/feed.xml"))
+  .pipe(dest("production/"))
+}
+
+exports.default = series(minHTML, compilecss, jsmin, copyImgs, copyFiles);
 
 
