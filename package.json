@@ -1,10 +1,11 @@
 {
   "name": "jektut",
   "version": "1.0.0",
+  
   "description": "This is a simple Jekyll boilerplate I am building to have a starting point for Jekyll projects. It includes Bootstrap styling.",
   "main": "index.js",
   "scripts": {
-    "build": "rm -fr production && bundle exec jekyll build && gulp",
+    "build": "rm -fr production && bundle exec jekyll build && node index.js && gulp",
     "serve": "bundle exec jekyll serve --livereload"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-terser": "^2.1.0"
+    "gulp-terser": "^2.1.0",
+    "sharp": "^0.29.3"
   }
 }
