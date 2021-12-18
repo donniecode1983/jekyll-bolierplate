@@ -3,13 +3,13 @@ main:
     link: /
     
   - name: About
-    link: /about.html
+    link: /about/
 
   - name: Contact
-    link: /contact.html
+    link: /contact/
 
   - name: Blog
-    link: /blog.html
+    link: /blog/
 
   - name: Sample Collection
-    link: /samplecollection.html
+    link: /samplecollection/

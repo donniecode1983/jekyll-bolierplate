@@ -13,6 +13,7 @@ collections:
   sample_collection:
     # output: true -> use this option if you would like the collection outputed to static html pages.
 
+permalink: /blog/:title/
 
 destination: public
 
