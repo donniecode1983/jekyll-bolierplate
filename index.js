@@ -4,8 +4,8 @@ const imgOps = require("./scripts/img-ops");
 
 // optimizeImgs("assets/images", "public/assets/images");
 imgOps.process({
-    input: "./assets/images",
-    output: "./public/assets/images",
+    input: "./_raw_images",
+    output: "./assets/images",
     jpgQual: 70,
     pngQual: 70,
     webp: true,

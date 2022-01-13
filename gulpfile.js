@@ -26,7 +26,7 @@ function jsmin() {
 
 // Copy images folder to production
 function copyImgs() {
-  return src("public/**/*.{jpg,png,jpeg}")
+  return src("public/**/*.{jpg,png,jpeg,webp}")
   .pipe(dest("production/"))
 }
 

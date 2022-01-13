@@ -97,6 +97,17 @@ function process(args) {
       })
       .toFile(`./${args.outputDir}/${args.file}`);
 
+    // create thumbnail
+    sh.normalise(true)
+    .jpeg({
+        mozjpeg: true,
+        quality: args.quality,
+        progressive: true,
+    })
+    .resize(200)
+    .composite([{input: './logo.png', gravity: 'center', blur: 100}])
+    .toFile(`./${args.outputDir}/thumb_${args.file}`)
+
     // if create webp is true then run the createWebp function
     if (args.webp) {
       createWebp({
@@ -119,7 +130,7 @@ function process(args) {
 
     //if width of image is more than maxWidth resize it.
     if (imgWidth > args.maxWidth) {
-      sh.resize(args.maxWidth);
+      sh.resize(Math.ceil(args.maxWidth/1.5));
     }
 
     // process the webp and write it to the output folder
