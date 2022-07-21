@@ -15,7 +15,7 @@ const path = require("path");
 
 function optimizeImgs(input, output) {
     let directory_name = input;
-    let ouput_dir = output;
+    let output_dir = output;
     let filenames = fs.readdirSync(directory_name);
     
     
@@ -39,7 +39,7 @@ function optimizeImgs(input, output) {
         }
     
         // write image to ouput folder
-        sh.toFile(ouput_dir + "/" + file, function (err, info) {
+        sh.toFile(output_dir + "/" + file, function (err, info) {
             console.log(info);
             if (err) {
                 console.log(err);
