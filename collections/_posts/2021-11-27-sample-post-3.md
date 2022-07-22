@@ -1,11 +1,14 @@
 ---
 layout: post
+author: Mary Lamb
 title: Sample Post Three
 tags: ["tag2", "tag3"]
 categories: [world]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac. Vel elit scelerisque mauris pellentesque pulvinar. Posuere morbi leo urna molestie at elementum. Risus in hendrerit gravida rutrum quisque. Id neque aliquam vestibulum morbi. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. In est ante in nibh mauris. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Pretium aenean pharetra magna ac placerat vestibulum lectus. Non nisi est sit amet facilisis magna etiam.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis blandit turpis cursus in hac. Vel elit scelerisque mauris pellentesque pulvinar. Posuere morbi leo urna molestie at elementum. Risus in hendrerit gravida rutrum quisque. Id neque aliquam vestibulum morbi. Natoque penatibus et magnis dis parturient montes nascetur ridiculus. 
+
+In est ante in nibh mauris. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Pretium aenean pharetra magna ac placerat vestibulum lectus. Non nisi est sit amet facilisis magna etiam.
 
 Nec tincidunt praesent semper feugiat. Sed odio morbi quis commodo. Augue interdum velit euismod in pellentesque massa placerat duis. Ante in nibh mauris cursus. Aliquam vestibulum morbi blandit cursus. Vitae ultricies leo integer malesuada nunc vel risus. Curabitur gravida arcu ac tortor dignissim. Pellentesque elit eget gravida cum sociis natoque penatibus. Nullam non nisi est sit amet facilisis magna etiam tempor. Commodo elit at imperdiet dui accumsan sit amet nulla. Eu tincidunt tortor aliquam nulla facilisi. Scelerisque in dictum non consectetur a erat nam at lectus.
 
