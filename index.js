@@ -8,6 +8,6 @@ imgOps.process({
     output: "./assets/images",
     jpgQual: 70,
     pngQual: 70,
-    webp: true,
+    webp: false,
     maxWidth: 1000,
   });
