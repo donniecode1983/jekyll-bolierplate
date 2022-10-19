@@ -83,11 +83,11 @@ function process(args) {
     let imgWidth = imageSize(args.fileLocation).width;
 
     //if width of image is more than maxWidth resize it.
-    if (imgWidth > args.maxWidth) {
-      console.log("sizing ran");
-      sh.resize(args.maxWidth);
-    }
-
+    // if (imgWidth > args.maxWidth) {
+    //   console.log("sizing ran");
+    //   sh.resize(args.maxWidth);
+    // }
+    console.log(args.fileLocation)
     // process the jpg and write it to the output folder
     sh.normalise(true)
       .jpeg({
@@ -105,7 +105,7 @@ function process(args) {
         progressive: true,
     })
     .resize(200)
-    .composite([{input: './logo.png', gravity: 'center', blur: 100}])
+    // .composite([{input: './logo.png', gravity: 'center', blur: 100}])
     .toFile(`./${args.outputDir}/thumb_${args.file}`)
 
     // if create webp is true then run the createWebp function
