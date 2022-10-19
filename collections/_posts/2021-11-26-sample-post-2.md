@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Sample Post Two
 tags: [tag1, tag3]
 categories: [business]

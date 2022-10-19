@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Sample Post One
 tags: tag1 tag3
 categories: [personal]

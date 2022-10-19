@@ -1,0 +1,21 @@
+body {
+  background-color: #fafafa !important; }
+
+.box-element {
+  box-shadow: #cccccc 0 0 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px; }
+
+.thumbnail {
+  width: 100%;
+  height: 200px;
+  -webkit-box-shadow: -1px -3px 5px -2px #d6d6d6;
+  -moz-box-shadow: -1px -3px 5px -2px #d6d6d6;
+  box-shadow: -1px -3px 5px -2px #d6d6d6; }
+
+.thumbnail-radius {
+  border-radius: 0 0 4px 4px; }
+
+.max-w-960 {
+  max-width: 960px; }

@@ -12,3 +12,4 @@ _scripts
 assets/images/
 assets/videos/
 _python/venv/
+debug.log

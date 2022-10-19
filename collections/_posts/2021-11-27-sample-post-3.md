@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Sample Post Three
 tags: ["tag2", "tag3"]
 categories: [world]

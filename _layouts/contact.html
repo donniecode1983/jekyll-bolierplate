@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="container m-3 w-100 m-auto mt-3" >
+    <h1 class="m-auto max-w-960">{{ page.title }}</h1>
+    <div class="row">
+        <div class="col">
+            <div class="m-auto mt-3 max-w-960">{{ page.content | markdownify }}</div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col w-50 m-auto">
+            {% include contact-form.html %}
+        </div>
+    </div>
+</div>
