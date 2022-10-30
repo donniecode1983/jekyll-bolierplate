@@ -1,5 +1,5 @@
 // custom JS
-var custom = {};
+const custom = {};
 
 custom.getMessage = function () {
     return 'Hello Webpack';
