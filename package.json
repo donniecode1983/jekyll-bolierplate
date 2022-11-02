@@ -10,7 +10,8 @@
     "sass": "node-sass --watch webpack/sass -o assets/css",
     "upload": "_scripts/upload.sh",
     "webpack": "webpack",
-    "build": "bundle exec jekyll build && gulp"
+    "build": "bundle exec jekyll build && gulp",
+    "rm-production": "node scripts/rmProduction.js"
   },
   "repository": {
     "type": "git",
