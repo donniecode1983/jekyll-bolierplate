@@ -7,7 +7,7 @@
     "build-gulp": "rm -fr production && bundle exec jekyll build && node index.js && gulp",
     "compile-images": "node index.js",
     "serve": "bundle exec jekyll serve --livereload --trace --port 4000",
-    "sass": "node-sass --watch sass -o assets/css",
+    "sass": "node-sass --watch webpack/sass -o assets/css",
     "upload": "_scripts/upload.sh",
     "webpack": "webpack",
     "build": "bundle exec jekyll build && gulp"
