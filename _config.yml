@@ -15,7 +15,8 @@ collections_dir: collections
 
 collections:
   sample_collection:
-    # output: true -> use this option if you would like the collection outputed to static html pages.
+    # output: true -> use this option if you would like the collection outputted to static html pages.
+  testimonials:
 
 permalink: /blog/:title/
 
@@ -28,7 +29,7 @@ plugins:
   - jekyll-seo-tag
 
 
-# Exculde these files and folders
+# Exclude these files and folders
 exclude: [
   "gulpfile.js",
   "package-lock.json",
