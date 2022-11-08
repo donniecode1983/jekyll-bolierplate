@@ -17,6 +17,7 @@ collections:
   sample_collection:
     # output: true -> use this option if you would like the collection outputted to static html pages.
   testimonials:
+  team:
 
 permalink: /blog/:title/
 

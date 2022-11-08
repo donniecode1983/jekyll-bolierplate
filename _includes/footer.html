@@ -1,6 +1,26 @@
-<footer class="footer mt-auto py-3 bg-dark text-light">
+<!-- <footer class="footer mt-auto py-3 bg-dark text-light">
     <div class="container text-center">
         <span class="text-muted"><a href="https://github.com/donniecode1983/jekyll-bolierplate">{{ site.name }}</a></span><br>
         <span class="text-muted">Bootstrap Theme is from <a href="https://startbootstrap.com/template/modern-business">Start Bootstrap</a></span>
+    </div>
+</footer> -->
+
+
+
+<footer class="bg-dark py-4 mt-auto">
+    <div class="container px-5">
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto">
+            <div class="small m-0 text-white">Copyright &copy; {{ site.time | date: '%Y' }} <a href="https://github.com/donniecode1983/jekyll-bolierplate" target="_blank" class="text-light">{{ site.title }}</a> | 
+                Bootstrap Theme is from <a href="https://startbootstrap.com/template/modern-business" class="text-light">Start Bootstrap</a>
+            </div></div>
+            <div class="col-auto">
+                <a class="link-light small" href="#!">Privacy</a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="#!">Terms</a>
+                <span class="text-white mx-1">&middot;</span>
+                <a class="link-light small" href="#!">Contact</a>
+            </div>
+        </div>
     </div>
 </footer>

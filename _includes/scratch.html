@@ -1,0 +1,23 @@
+<p>this is the scratch html file...</p>
+
+<ul>
+    {% for icon in site.data.icons %}
+    
+    <li>
+        {{ icon.name }} <br>
+        {{ icon.code }}
+    </li>
+    {% endfor %}
+</ul>
+
+{% assign code = "twitter" %}
+{% assign icon = site.data.icons[code] %}
+<h1>{{ icon.name }}</h1>
+
+<h2>{{ site.data.icons["twitter"].code }}</h2>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
+    <path d="{{ site.data.icons['chat-dots'].code[0] }}"/>
+    <path d="site.data.icons['chat-dots'].code[1]"/>
+</svg>
