@@ -5,6 +5,8 @@ tagline: This is a short description of the site.
 description: This is the longer version of the site description. It will be placed in the head of the document.
 url: https://devhtml.dmurphyweb.com
 
+phone: (555) 892-9403
+
 # Contact Form
 cognito-form-key: W2wJKdnZb0eaNWDs1Qh_hQ
 cognito-data-form: 9
