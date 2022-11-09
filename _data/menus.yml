@@ -5,6 +5,9 @@ main:
   - name: About
     link: /about/
 
+  - name: FAQs
+    link: /faq/
+
   - name: Contact
     link: /contact/
 
