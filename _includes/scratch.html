@@ -16,8 +16,9 @@
 
 <h2>{{ site.data.icons["twitter"].code }}</h2>
 
-
+{% assign icon = site.data.icons["twitter"] %}
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
-    <path d="{{ site.data.icons['chat-dots'].code[0] }}"/>
-    <path d="site.data.icons['chat-dots'].code[1]"/>
+    {% for code in icon.code %}
+    <path d="{{ code }}"/>
+    {% endfor %}
 </svg>
