@@ -1,24 +1,7 @@
 <p>this is the scratch html file...</p>
 
-<ul>
-    {% for icon in site.data.icons %}
-    
-    <li>
-        {{ icon.name }} <br>
-        {{ icon.code }}
-    </li>
-    {% endfor %}
-</ul>
+{% assign faq = site.faq | where:'category','Account' %}
 
-{% assign code = "twitter" %}
-{% assign icon = site.data.icons[code] %}
-<h1>{{ icon.name }}</h1>
-
-<h2>{{ site.data.icons["twitter"].code }}</h2>
-
-{% assign icon = site.data.icons["twitter"] %}
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
-    {% for code in icon.code %}
-    <path d="{{ code }}"/>
-    {% endfor %}
-</svg>
+{% for q in faq %}
+{{ q.question }}
+{% endfor %}

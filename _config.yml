@@ -20,6 +20,7 @@ collections:
     # output: true -> use this option if you would like the collection outputted to static html pages.
   testimonials:
   team:
+  faq:
 
 permalink: /blog/:title/
 
