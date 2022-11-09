@@ -46,4 +46,5 @@ exclude: [
   "src",
   "webpack",
   "webpack.config.js",
+  "faq",
 ]

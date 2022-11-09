@@ -1,7 +1,9 @@
 <p>this is the scratch html file...</p>
 
 {% assign faq = site.faq | where:'category','Account' %}
-
+{% assign i = 0 %}
 {% for q in faq %}
-{{ q.question }}
+    {% assign i = i|plus:1 %}
+    <p>{{i}}</p>
 {% endfor %}
+
