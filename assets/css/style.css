@@ -8346,6 +8346,9 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem; }
 
+.no-decoration {
+  text-decoration: none !important; }
+
 .navbar {
   font-size: 0.875rem;
   font-weight: 500; }

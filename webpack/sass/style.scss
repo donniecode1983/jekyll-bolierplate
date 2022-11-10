@@ -2,6 +2,7 @@
 
 // Custom CSS
 @import "./custom.scss";
+@import "./_abstracts/utils.scss";
 
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/mixins";

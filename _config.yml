@@ -21,6 +21,7 @@ collections:
   testimonials:
   team:
   faq:
+  pricing:
 
 permalink: /blog/:title/
 
@@ -46,5 +47,5 @@ exclude: [
   "src",
   "webpack",
   "webpack.config.js",
-  "faq",
+  
 ]
