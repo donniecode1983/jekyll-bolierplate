@@ -2,6 +2,7 @@
   "name": "jektut",
   "version": "1.0.0",
   "description": "This is a simple Jekyll boilerplate I am building to have a starting point for Jekyll projects. It includes Bootstrap styling.",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "build-gulp": "rm -fr production && bundle exec jekyll build && node index.js && gulp",
