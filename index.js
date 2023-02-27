@@ -9,6 +9,7 @@ const dir = './assets/images';
 if(!fs.existsSync(dir)){
   fs.mkdirSync(dir);
 }
+// END of image folder creation
 
 // optimizeImgs("assets/images", "public/assets/images");
 imgOps.process({
